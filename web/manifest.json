@@ -1,6 +1,6 @@
 {
-    "name": "kapino_rubbish_collection",
-    "short_name": "kapino_rubbish_collection",
+    "name": "Śmieci Kąpino",
+    "short_name": "Śmieci Kąpino",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

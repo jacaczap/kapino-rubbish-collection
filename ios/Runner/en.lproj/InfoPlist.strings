@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by Flutter for localization.
+*/
+
+"CFBundleDisplayName" = "Kąpino Rubbish Collection";
+"CFBundleName" = "Kąpino Rubbish Collection";
+
