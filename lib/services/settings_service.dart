@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -57,7 +56,7 @@ class UserSettings {
   final int daysInAdvance;
 
   /// Creates a new [UserSettings] instance.
-  UserSettings({
+  const UserSettings({
     required this.notificationTime,
     required this.daysInAdvance,
   });

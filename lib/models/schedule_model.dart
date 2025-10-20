@@ -16,7 +16,7 @@ class Schedule {
   final List<ScheduleEvent> events;
 
   /// Creates a new [Schedule] instance.
-  Schedule({
+  const Schedule({
     required this.meta,
     required this.categories,
     required this.events,
@@ -63,7 +63,7 @@ class ScheduleMeta {
   final String sourcePdfUrl;
 
   /// Creates a new [ScheduleMeta] instance.
-  ScheduleMeta({
+  const ScheduleMeta({
     required this.area,
     required this.routeDayHintPl,
     required this.year,
@@ -95,7 +95,7 @@ class CategoryInfo {
   final String nameEn;
 
   /// Creates a new [CategoryInfo] instance.
-  CategoryInfo({
+  const CategoryInfo({
     required this.namePl,
     required this.nameEn,
   });
@@ -121,7 +121,7 @@ class ScheduleEvent {
   final List<String> categories;
 
   /// Creates a new [ScheduleEvent] instance.
-  ScheduleEvent({
+  const ScheduleEvent({
     required this.date,
     required this.categories,
   });
