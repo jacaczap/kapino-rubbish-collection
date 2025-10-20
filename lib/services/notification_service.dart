@@ -1,5 +1,6 @@
 import 'dart:developer' as developer;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'schedule_service.dart';
@@ -69,6 +70,43 @@ class NotificationService {
     );
   }
 
+  /// Safely cancels all notifications with error handling.
+  ///
+  /// If the standard cancelAll() fails due to type parameter issues,
+  /// this method clears the problematic SharedPreferences data and retries.
+  Future<void> _safeCancelAll() async {
+    try {
+      await _notifications.cancelAll();
+    } catch (e) {
+      developer.log(
+        'Error canceling notifications, clearing plugin data: $e',
+        name: 'kapino.notifications',
+        level: 1000, // SEVERE
+        error: e,
+      );
+      
+      // Clear the problematic SharedPreferences data
+      try {
+        final prefs = await SharedPreferences.getInstance();
+        // Remove keys used by flutter_local_notifications plugin
+        await prefs.remove('scheduled_notifications');
+        await prefs.remove('notification_plugin_cache');
+        
+        // Try canceling again after clearing
+        await _notifications.cancelAll();
+      } catch (clearError) {
+        developer.log(
+          'Failed to clear and retry: $clearError',
+          name: 'kapino.notifications',
+          level: 1000, // SEVERE
+          error: clearError,
+        );
+        // Rethrow if we still can't cancel
+        rethrow;
+      }
+    }
+  }
+
   /// Schedules all collection reminder notifications.
   ///
   /// Cancels any existing notifications and schedules new ones based
@@ -78,8 +116,8 @@ class NotificationService {
       String languageCode, Schedule schedule) async {
     await initialize();
 
-    // Cancel all existing notifications
-    await _notifications.cancelAll();
+    // Cancel all existing notifications (with error handling)
+    await _safeCancelAll();
 
     final settings = await _settingsService.loadSettings();
     final futureEvents = await _scheduleService.getFutureCollections();
@@ -171,8 +209,6 @@ class NotificationService {
       scheduledDate,
       notificationDetails,
       androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
       payload: '',
     );
   }
@@ -224,8 +260,6 @@ class NotificationService {
       scheduledDate,
       notificationDetails,
       androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
       payload: '',
     );
   }

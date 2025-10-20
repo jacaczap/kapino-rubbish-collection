@@ -52,6 +52,11 @@ android {
         release {
             signingConfig = signingConfigs.getByName("debug")
             signingConfig = signingConfigs.getByName("release")
+            // Enable ProGuard rules to prevent type parameter issues
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
 }
@@ -61,5 +66,5 @@ flutter {
 }
 
 dependencies {
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
