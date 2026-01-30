@@ -37,13 +37,13 @@ A Flutter mobile application for Android that notifies users about upcoming rubb
 
 ## Building for Release
 
-To build an APK for release:
+To build an app for release:
 
 ```bash
-flutter build apk --release
+flutter build appbundle
 ```
 
-The APK will be available at: `build/app/outputs/flutter-apk/app-release.apk`
+The bundle will be available at: `build/app/outputs/bundle/release/app-release.aab`
 
 ## Dependencies
 
