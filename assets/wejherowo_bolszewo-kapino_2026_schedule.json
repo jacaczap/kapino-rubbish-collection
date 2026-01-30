@@ -2,9 +2,9 @@
   "meta": {
     "area": "Kąpino / Bolszewo (wybrane ulice)",
     "route_day_hint_pl": "Czwartek",
-    "year": 2025,
+    "year": 2026,
     "timezone": "Europe/Warsaw",
-    "source_pdf_url": "https://bip.ugwejherowo.pl/pliki/ugwejherowo/zalaczniki/11511/bolszewo-kapino-czwartek.pdf"
+    "source_pdf_url": "https://bip.ugwejherowo.pl/pliki/ugwejherowo/zalaczniki/12426/bolszewo-kapino-czwartek.pdf"
   },
   "categories": {
     "MIXED": {
@@ -46,7 +46,7 @@
   },
   "events": [
     {
-      "date": "2025-01-10",
+      "date": "2026-01-09",
       "categories": [
         "ASH",
         "BIO",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "date": "2025-01-23",
+      "date": "2026-01-22",
       "categories": [
         "BIO",
         "CHRISTMAS_TREES",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "date": "2025-02-06",
+      "date": "2026-02-05",
       "categories": [
         "ASH",
         "BIO",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "date": "2025-02-20",
+      "date": "2026-02-19",
       "categories": [
         "BIO",
         "MIXED",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "date": "2025-03-06",
+      "date": "2026-03-05",
       "categories": [
         "ASH",
         "BIO",
@@ -92,13 +92,13 @@
       ]
     },
     {
-      "date": "2025-03-15",
+      "date": "2026-03-14",
       "categories": [
         "BULKY"
       ]
     },
     {
-      "date": "2025-03-20",
+      "date": "2026-03-19",
       "categories": [
         "BIO",
         "MIXED",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "date": "2025-04-03",
+      "date": "2026-04-02",
       "categories": [
         "ASH",
         "BIO",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "date": "2025-04-17",
+      "date": "2026-04-16",
       "categories": [
         "BIO",
         "MIXED",
@@ -125,158 +125,7 @@
       ]
     },
     {
-      "date": "2025-05-02",
-      "categories": [
-        "ASH",
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-05-15",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-05-29",
-      "categories": [
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-06-05",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-06-12",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-06-20",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-06-26",
-      "categories": [
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-07-03",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-07-10",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-07-17",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-07-24",
-      "categories": [
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-07-31",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-08-07",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-08-14",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-08-21",
-      "categories": [
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-08-28",
-      "categories": [
-        "BIO"
-      ]
-    },
-    {
-      "date": "2025-09-04",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-09-18",
-      "categories": [
-        "BIO",
-        "GLASS",
-        "GREEN",
-        "MIXED"
-      ]
-    },
-    {
-      "date": "2025-10-02",
-      "categories": [
-        "BIO",
-        "MIXED",
-        "PAPER",
-        "PLASTIC"
-      ]
-    },
-    {
-      "date": "2025-10-16",
+      "date": "2026-04-30",
       "categories": [
         "ASH",
         "BIO",
@@ -286,7 +135,7 @@
       ]
     },
     {
-      "date": "2025-10-30",
+      "date": "2026-05-14",
       "categories": [
         "BIO",
         "MIXED",
@@ -295,7 +144,7 @@
       ]
     },
     {
-      "date": "2025-11-14",
+      "date": "2026-05-28",
       "categories": [
         "ASH",
         "BIO",
@@ -305,7 +154,13 @@
       ]
     },
     {
-      "date": "2025-11-27",
+      "date": "2026-06-05",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-06-11",
       "categories": [
         "BIO",
         "MIXED",
@@ -314,7 +169,153 @@
       ]
     },
     {
-      "date": "2025-12-10",
+      "date": "2026-06-18",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "categories": [
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "categories": [
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "categories": [
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "categories": [
+        "BIO"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "categories": [
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "categories": [
+        "ASH",
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "categories": [
+        "ASH",
+        "BIO",
+        "GLASS",
+        "GREEN",
+        "MIXED"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "categories": [
+        "BIO",
+        "MIXED",
+        "PAPER",
+        "PLASTIC"
+      ]
+    },
+    {
+      "date": "2026-12-10",
       "categories": [
         "ASH",
         "BIO",
@@ -323,7 +324,7 @@
       ]
     },
     {
-      "date": "2025-12-23",
+      "date": "2026-12-23",
       "categories": [
         "BIO",
         "MIXED",

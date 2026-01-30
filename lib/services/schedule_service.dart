@@ -18,7 +18,7 @@ class ScheduleService {
     }
 
     final String jsonString = await rootBundle.loadString(
-        'assets/wejherowo_bolszewo-kapino_2025_schedule.json');
+        'assets/wejherowo_bolszewo-kapino_2026_schedule.json');
     final Map<String, dynamic> jsonData = json.decode(jsonString);
     
     _cachedSchedule = Schedule.fromJson(jsonData);
